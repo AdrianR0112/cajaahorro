@@ -42,17 +42,7 @@
 	<div class="main-page-wrapper">
 		<!--[if lte IE 9]> <p class="browserupgrade"> You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security. </p> <![endif]-->
 
-		<!-- preloader start -->
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="txt-loading">
-					<span data-text-preloader="S" class="letters-loading">S</span>
-					<span data-text-preloader="O" class="letters-loading">O</span>
-					<span data-text-preloader="L" class="letters-loading">L</span>
-				</div>
-			</div>
-		</div>
-		<!-- preloader end  -->
+		<?php include 'includes/preloader.php'; ?>
 
 		<!-- offcanvas búsqueda simple (opcional) -->
 		<div class="offcanvas offcanvas-top theme-bg" tabindex="-1" id="offcanvasTop">
@@ -71,155 +61,9 @@
 		</div>
 		<!-- offcanvas end  -->
 
-		<!-- header-area start -->
-		<header class="theme-main-menu theme-menu-one">
-			<div class="header-top">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<div
-								class="topbar-content d-flex align-items-center justify-content-center justify-content-md-between">
-								<div class="ht-topbar-left">
-									<span class="ht-promo d-none d-md-inline-block">
-										💛 Bienvenidos a Caja de Ahorro <strong>Sol de Noviembre</strong>
-									</span>
-									<a class="ht-phone d-none d-xl-inline-block" href="tel:+54-XXX-XXXXXXX">
-										<i class="bi bi-telephone"></i> +54 XXX XXXX XXX
-									</a>
-								</div>
-								<div class="ht-topbar-right d-flex align-items-center">
-									<a class="ht-email d-none d-lg-inline-block"
-										href="mailto:info@soldenoviembrecaja.com">
-										<i class="bi bi-envelope"></i> info@soldenoviembrecaja.com
-									</a>
+		<?php include 'includes/header.php'; ?>
 
-									<div class="header-social">
-										<a href="#"><i class="bi bi-facebook"></i></a>
-										<a href="#"><i class="bi bi-instagram"></i></a>
-										<a href="#"><i class="bi bi-twitter"></i></a>
-									</div>
-								</div>
-							</div><!-- /.topbar-content -->
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="main-header-area">
-				<div class="container-fluid">
-					<div class="row align-items-center justify-content-between">
-						<div class="col-md-auto col-6">
-							<div class="logo-area">
-								<a href="index.html"><img src="assets/img/logo/logo-1.svg"
-										alt="Logo Sol de Noviembre"></a>
-							</div>
-						</div>
-
-						<div class="col-md-auto d-flex align-items-center justify-content-end d-lg-inline-block d-none">
-							<div class="main-menu d-none d-lg-block">
-								<nav id="mobile-menu">
-									<ul class="menu-list">
-										<li><a href="index.html">Inicio</a></li>
-
-										<li>
-											<a href="about.html">Nosotros</a>
-											<ul class="sub-menu">
-												<li><a href="about.html">Quiénes Somos</a></li>
-												<li><a href="historia.html">Historia</a></li>
-												<li><a href="mision-vision.html">Misión y Visión</a></li>
-											</ul>
-										</li>
-
-										<li>
-											<a href="servicios.html">Servicios</a>
-											<ul class="sub-menu">
-												<li><a href="servicios-ahorro.html">Servicios de Ahorro</a></li>
-												<li><a href="creditos.html">Créditos</a></li>
-												<li><a href="consultorias.html">Consultorías</a></li>
-												<li><a href="simulador.html">Simulador de Ahorro</a></li>
-											</ul>
-										</li>
-
-										<li><a href="requisitos.html">Afíliate</a></li>
-										<li><a href="novedades.html">Novedades</a></li>
-										<li><a href="galeria.html">Galería</a></li>
-										<li><a href="contacto.html">Contacto</a></li>
-									</ul>
-								</nav>
-							</div>
-						</div>
-
-						<div class="col-md-auto col-6">
-							<div class="right-nav d-flex align-items-center justify-content-end">
-								<div class="quote-btn d-lg-inline-block d-none">
-									<a href="#" class="ht-btn bs-btn" data-bs-toggle="modal"
-										data-bs-target="#loginModal">
-										Acceso Socios
-									</a>
-								</div>
-
-								<div class="hamburger-menu ms-0 d-lg-none d-md-inline-flex">
-									<div class="bar-wrap">
-										<div class="bar-1"></div>
-										<div class="bar-2"></div>
-										<div class="bar-3"></div>
-									</div>
-								</div>
-							</div><!-- /.right-nav -->
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- header-area end -->
-
-		<!-- slide-bar start (menú móvil / info) -->
-		<div class="ht-menu-wrapper">
-			<div class="ht-menu-area">
-				<button class="ht-menu-toggle"><i class="bi bi-x-lg"></i></button>
-				<div class="mobile-logo">
-					<a href="index.html">
-						<img src="assets/img/logo/logo-2.svg" alt="logo">
-					</a>
-				</div>
-				<div class="mobile-menu-wrapper d-lg-none d-inline-block">
-					<div class="mobile-menu"></div>
-				</div>
-				<div class="offset-widget mb-40">
-					<div class="info-widget">
-						<h4 class="offset-title mb-20">¿Quiénes somos?</h4>
-						<p class="mb-30">
-							Sol de Noviembre es una institución financiera orientada a fomentar el ahorro y ofrecer
-							servicios financieros accesibles para familias y pequeñas empresas de nuestro entorno.
-							Trabajamos para impulsar el crecimiento económico, la estabilidad familiar y nuevas
-							oportunidades en la comunidad.
-						</p>
-					</div>
-				</div>
-				<div class="offset-widget mb-30 pr-10">
-					<div class="info-widget info-widget2">
-						<h4 class="offset-title mb-20">Información de Contacto</h4>
-						<p>
-							<i class="fal fa-address-book"></i>
-							Av. Principal 123, Ciudad, Argentina
-						</p>
-						<p>
-							<i class="fal fa-phone"></i>
-							+54 XXX XXXX XXX
-						</p>
-						<p>
-							<i class="fal fa-envelope-open"></i>
-							info@soldenoviembrecaja.com
-						</p>
-					</div>
-				</div>
-				<div class="login-btn text-center">
-					<a class="ht-btn w-100" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Ingresar como
-						socio</a>
-				</div>
-			</div>
-		</div>
-		<!-- side-bar end -->
+		<?php include 'includes/sidebar.php'; ?>
 
 
 		<main>
@@ -261,9 +105,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="hero-img text-lg-end">
-								<img class="main-img img-fluid" src="assets/img/hero/hero-img-1.jpg" alt="Personas ahorrando">
-								<img class="card-shape d-none d-xxl-inline-block" src="assets/img/hero/card.png"
-									alt="Shape">
+								<img class="main-img img-fluid" src="assets/img/hero/hero-img-1.png" alt="Personas ahorrando">
 							</div>
 						</div>
 					</div>
@@ -922,7 +764,7 @@
 							<div class="d-md-flex justify-content-xl-end justify-content-center text-center mb-50">
 								<a class="mr-25 mb-md-0 mb-4 d-inline-block ht-btn bstyle"
 									href="requisitos.html">Ver requisitos de afiliación</a>
-								<a class="d-inline-block ht-btn bstyle-2" href="contacto.html">Contactar a un
+								<a class="d-inline-block ht-btn bstyle-2" href="contact.php">Contactar a un
 									asesor</a>
 							</div>
 						</div>
@@ -933,98 +775,7 @@
 
 		</main>
 
-
-		<!--footer-area start-->
-		<footer class="footer-one pt-130">
-			<div class="container">
-				<div class="row mb-30">
-					<div class="col-xxl-4 col-lg-6 col-md-8">
-						<div class="footer-widget ht-about-widget mb-30">
-							<div class="footer-logo">
-								<a href="index.html"><img src="assets/img/logo/logo-1.svg" alt="logo"></a>
-							</div>
-							<p class="mt-30 mb-30">
-								En Sol de Noviembre promovemos el ahorro responsable y acompañamos a nuestros socios en
-								cada etapa de su crecimiento financiero.
-							</p>
-							<div class="subscribe-form mb-45">
-								<input type="text" placeholder="Ingresa tu correo">
-								<button type="submit">Suscribirse</button>
-							</div>
-							<div class="social-links">
-								<a href="#"><i class="bi bi-facebook"></i></a>
-								<a href="#"><i class="bi bi-twitter"></i></a>
-								<a href="#"><i class="bi bi-instagram"></i></a>
-								<a href="#"><i class="bi bi-youtube"></i></a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-xxl-2 col-lg-6 col-md-4">
-						<div class="footer-widget ms-xxl-5 mb-30">
-							<h4 class="widget-title">Enlaces</h4>
-							<ul>
-								<li><a href="about.html">Sobre nosotros</a></li>
-								<li><a href="servicios-ahorro.html">Servicios de ahorro</a></li>
-								<li><a href="novedades.html">Novedades</a></li>
-								<li><a href="#testimonios">Testimonios</a></li>
-								<li><a href="contacto.html">Contáctanos</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-xxl-3 col-lg-6 col-md-6 d-xl-flex justify-content-xl-center">
-						<div class="footer-widget mb-30">
-							<h4 class="widget-title">Zona de socios</h4>
-							<ul>
-								<li><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Acceso socios</a>
-								</li>
-								<li><a href="documentos.html">Documentos y formularios</a></li>
-								<li><a href="reglamento.html">Reglamento interno</a></li>
-								<li><a href="simulador.html">Simulador de ahorro</a></li>
-								<li><a href="faq.html">Preguntas frecuentes</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-xxl-3 col-lg-6 col-md-6 d-xl-flex justify-content-xl-end">
-						<div class="footer-widget mb-30">
-							<h4 class="widget-title">Contáctanos</h4>
-							<ul>
-								<li><a href="mailto:info@soldenoviembrecaja.com">info@soldenoviembrecaja.com</a></li>
-								<li><a href="#">+54 XXX XXXX XXX</a></li>
-								<li><span>Av. Principal 123, Ciudad, Argentina</span></li>
-							</ul>
-
-							<div class="shape-1 d-none d-lg-inline-block">
-								<img class="text-bg-shape" src="assets/img/shape/shape-19.png" alt="Shape">
-								<img class="text-letter-shape" src="assets/img/shape/shape-20.png" alt="Shape">
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="copyright-wrap pb-xl-0 pb-5">
-					<div class="row align-items-center">
-						<div class="col-md-6">
-							<div class="copyright-text text-lg-start text-center pt-40 pb-lg-5 pb-4">
-								© Copyright 2024 Sol de Noviembre - Caja de Ahorro. Todos los derechos reservados.
-							</div>
-						</div>
-						<div class="col-md-6 text-xl-end text-center">
-							<ul class="footer-menu">
-								<li><a href="terminos.html">Términos y condiciones</a></li>
-								<li><a href="privacidad.html">Política de privacidad</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--footer-area end-->
+		<?php include 'includes/footer.php'; ?>
 
 		<!-- Modal acceso/registro socios -->
 		<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">

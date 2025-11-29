@@ -47,34 +47,8 @@
 	<div class="main-page-wrapper">
 		<!--[if lte IE 9]> <p class="browserupgrade"> You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security. </p> <![endif]-->
 
-		<!-- Add your site or application content here -->
+		<?php include 'includes/preloader.php'; ?>
 
-
-		<!-- preloader start -->
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="txt-loading">
-					<span data-text-preloader="F" class="letters-loading">
-						F
-					</span>
-					<span data-text-preloader="i" class="letters-loading">
-						i
-					</span>
-					<span data-text-preloader="b" class="letters-loading">
-						b
-					</span>
-					<span data-text-preloader="a" class="letters-loading">
-						a
-					</span>
-					<span data-text-preloader="n" class="letters-loading">
-						n
-					</span>
-					<span data-text-preloader="k" class="letters-loading">
-						k
-					</span>
-				</div>
-			</div>
-		</div>
 		<!-- preloader end  -->
 
 
@@ -175,244 +149,10 @@
 		</div>
 		<!-- shopping-cart-bar end -->
 
-		<!-- header-area start -->
-		<header class="theme-main-menu theme-menu-six">
-			<div class="header-top">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
-							<div
-								class="topbar-content d-flex align-items-center justify-content-center justify-content-md-between">
-								<div class="ht-topbar-left">
-									<a class="ht-promo d-none d-md-inline-block" href="#"><span
-											class="hello">Hello!!</span>
-										Welcome to Fibank.</a>
-									<a class="ht-phone d-none d-xl-inline-block" href="#"><span><i
-												class="bi bi-telephone"></i></span> +86-085-550-1539</a>
-								</div>
-								<div class="ht-topbar-right d-flex align-items-center">
-					<a class="ht-email d-none d-lg-inline-block" href="#"><span><i
-							class="bi bi-envelope"></i></span> info@soldenoviembrecaja.com</a>									<div class="header-social">
-										<a href="@"><i class="bi bi-facebook"></i></a>
-										<a href="@"><i class="bi bi-instagram"></i></a>
-										<a href="@"><i class="bi bi-twitter"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="main-header-area">
-				<div class="container-fluid">
-					<div class="row align-items-center justify-content-between">
-						<div class="col-md-auto col-6">
-							<div class="logo-area">
-								<a href="index.html"><img src="assets/img/logo/logo-1.svg" alt="Header-logo"></a>
-							</div>
-						</div>
-						<div class="col-md-auto d-flex align-items-center justify-content-end d-lg-inline-block d-none">
-							<div class="main-menu d-none d-lg-block">
-								<nav id="mobile-menu">
-									<ul class="menu-list">
-										<li>
-											<a href="#">
-												Home
-											</a>
-											<ul class="sub-menu">
-												<li>
-													<a href="index.html">Home Style 1</a>
-												</li>
-												<li>
-													<a href="index-2.html">Home Style 2</a>
-												</li>
-												<li>
-													<a href="index-3.html">Home Style 3</a>
-												</li>
-												<li>
-													<a href="index-4.html">Home Style 4</a>
-												</li>
-
-												<li>
-													<a href="index-5.html">Home Style 5</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">
-												Pages
-											</a>
-											<ul class="sub-menu">
-												<li>
-													<a href="about.html">About Us</a>
-												</li>
-												<li>
-													<a href="#">Blog <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="blog-grid.html">Blog Grid</a>
-														</li>
-														<li>
-															<a href="blog-list.html">Blog List</a>
-														</li>
-														<li>
-															<a href="blog-classic.html">Blog Classic</a>
-														</li>
-														<li>
-															<a href="blog-details.html">Blog Details</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="#">Shop <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="shop.html">Shop</a>
-														</li>
-														<li>
-															<a href="shop-details.html">Shop Details</a>
-														</li>
-														<li>
-															<a href="cart.html">Cart</a>
-														</li>
-														<li>
-															<a href="checkout.html">Checkout</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="#">Project <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="project-grid.html">Project Grid</a>
-														</li>
-														<li>
-															<a href="project-details.html">Project Details</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="#">Team <span class="float-end"><i
-																class="bi bi-chevron-down"></i></span></a>
-													<ul class="sub-menu">
-														<li>
-															<a href="team.html">Team</a>
-														</li>
-														<li>
-															<a href="team-details.html">Team Details</a>
-														</li>
-													</ul>
-												</li>
-												<li>
-													<a href="error.html">Error - 404</a>
-												</li>
-												<li>
-													<a href="faq.html">Faq</a>
-												</li>
-												<li>
-													<a href="price.html">Price</a>
-												</li>
-												<li>
-													<a href="testimonial.html">Testimonial</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="#">Service</a>
-											<ul class="sub-menu">
-												<li>
-													<a href="services.html">Services</a>
-												</li>
-												<li>
-													<a href="services-details.html">Services Details</a>
-												</li>
-											</ul>
-										</li>
-										<li>
-											<a href="contact.html">Contact</a>
-										</li>
-
-									</ul>
-								</nav>
-							</div>
-						</div>
-						<div class="col-md-auto col-6">
-							<div class="right-nav d-flex align-items-center justify-content-end">
-								<div class="cart-menu">
-									<a class="shopping-cart me-2 me-lg-3" href="#">
-										<i class="bi bi-bag"></i>
-										<span class="badge">0</span>
-									</a>
-								</div>
-								<div class="quote-btn d-xl-inline-block d-none">
-									<a href="login.html" class="ht-btn bs-btn" data-bs-toggle="modal"
-										data-bs-target="#loginModal">sign up</a>
-								</div>
-								<div class="hamburger-menu d-lg-none d-inline-flex">
-									<div class="bar-wrap">
-										<div class="bar-1"></div>
-										<div class="bar-2"></div>
-										<div class="bar-3"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /.theme-main-menu -->
-		</header>
-		<!-- header-area end -->
+		<?php include 'includes/header.php'; ?>
 
 		<!-- slide-bar start -->
-		<div class="ht-menu-wrapper">
-			<div class="ht-menu-area">
-				<button class="ht-menu-toggle"><i class="bi bi-x-lg"></i></button>
-				<div class="mobile-logo">
-					<a href="index.html">
-						<img src="assets/img/logo/logo-2.svg" alt="logo">
-					</a>
-				</div>
-				<div class="mobile-menu-wrapper d-lg-none d-inline-block">
-					<div class="mobile-menu"></div>
-				</div>
-				<div class="offset-widget mb-40">
-					<div class="info-widget">
-						<h4 class="offset-title mb-20">About Us</h4>
-						<p class="mb-30">
-							But I must explain to you how all this mistaken idea of denouncing pleasure and
-							praising pain was born and will give you a complete account of the system and
-							expound the actual teachings of the great explore
-						</p>
-					</div>
-				</div>
-				<div class="offset-widget mb-30 pr-10">
-					<div class="info-widget info-widget2">
-						<h4 class="offset-title mb-20">Contact Info</h4>
-						<p>
-							<i class="fal fa-address-book"></i>
-							23/A, Miranda City Likaoli Prikano, Dope
-						</p>
-						<p>
-							<i class="fal fa-phone"></i>
-							+0989 7876 9865 9
-						</p>
-						<p>
-							<i class="fal fa-envelope-open"></i>
-							info@example.com
-						</p>
-					</div>
-				</div>
-				<div class="login-btn text-center">
-					<a class="ht-btn w-100" href="login.html">Login</a>
-				</div>
-
-			</div>
-		</div>
-		<!-- side-bar end -->
+		<?php include 'includes/sidebar.php'; ?>
 
 
 		<main>
@@ -424,7 +164,7 @@
 						<div class="breadcrumb-content text-center">
 							<h2 class="breadcrumb-title">Testimonial</h2>
 							<ul class="breadcumb-menu">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li><a href="#">Pages</a></li>
 								<li><a href="#">Testimonial</a></li>
 							</ul>
@@ -893,14 +633,14 @@
 					<div class="col-xxl-6 col-xl-6 text-xl-start text-center">
 						<div class="footer-widget">
 							<div class="footer-logo">
-								<a href="index.html"><img src="assets/img/logo/logo-2.svg" alt="Logo"></a>
+								<a href="index.php"><img src="assets/img/logo/logo-2.svg" alt="Logo"></a>
 							</div>
 							<p class="description-text">Choose us for reliable, detail-oriented cleaning that meets all
 								your
 								cleanliness needs.</p>
 							<ul class="d-md-flex justify-content-between">
 								<li>
-									<a href="about.html">About us</a>
+									<a href="about.php">About us</a>
 								</li>
 								<li>
 									<a href="price.html">Pricing plan</a>
@@ -909,7 +649,7 @@
 									<a href="blog-grid.html">Blogs</a>
 								</li>
 								<li>
-									<a href="about.html">Testimonial</a>
+									<a href="about.php">Testimonial</a>
 								</li>
 								<li>
 									<a href="contact.html">Contact us</a>

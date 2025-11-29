@@ -5,14 +5,14 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
 	<meta name="keywords"
-		content="caja de ahorro, tienda, productos, sol de noviembre">
+		content="caja de ahorro, blog, artículo, sol de noviembre">
 	<meta name="description"
-		content="Tienda de Sol de Noviembre - Productos y servicios financieros.">
-	<title>Sol de Noviembre - Tienda</title>
+		content="Artículo de Sol de Noviembre - Consejos sobre ahorro e inversión segura.">
+	<title>Sol de Noviembre - Artículo</title>
 	<meta property="og:site_name" content="Sol de Noviembre">
 	<meta property="og:url" content="">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Sol de Noviembre - Tienda">
+	<meta property="og:title" content="Sol de Noviembre - Artículo">
 	<meta name='og:image' content='images/assets/ogg.png'>
 	<!-- For IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,34 +47,8 @@
 	<div class="main-page-wrapper">
 		<!--[if lte IE 9]> <p class="browserupgrade"> You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security. </p> <![endif]-->
 
-		<!-- Add your site or application content here -->
+		<?php include 'includes/preloader.php'; ?>
 
-
-		<!-- preloader start -->
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="txt-loading">
-					<span data-text-preloader="F" class="letters-loading">
-						F
-					</span>
-					<span data-text-preloader="i" class="letters-loading">
-						i
-					</span>
-					<span data-text-preloader="b" class="letters-loading">
-						b
-					</span>
-					<span data-text-preloader="a" class="letters-loading">
-						a
-					</span>
-					<span data-text-preloader="n" class="letters-loading">
-						n
-					</span>
-					<span data-text-preloader="k" class="letters-loading">
-						k
-					</span>
-				</div>
-			</div>
-		</div>
 		<!-- preloader end  -->
 
 
@@ -95,9 +69,11 @@
 				<!-- end fullscreen search -->
 			</div>
 		</div>
-		<!-- offcanvas end  -->
+	<!-- offcanvas end  -->
 
-		<!-- shopping-cart-bar start -->
+	<?php include 'includes/header.php'; ?>
+
+	<!-- slide-bar start -->
 		<div class="cart-menu-right cart-style-1 white-bg">
 			<div class="close-icon float-right">
 				<a href="javascript:void(0);"><i class="bi bi-x"></i></a>
@@ -175,12 +151,9 @@
 		</div>
 		<!-- shopping-cart-bar end -->
 
-		<!-- header-area start -->
-		<header class="theme-main-menu theme-menu-six">
-			<div class="header-top">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
+		<!--#include virtual="assets/includes/header.html" -->
+		<!-- slide-bar start -->
+		<div class="ht-menu-wrapper">
 							<div
 								class="topbar-content d-flex align-items-center justify-content-center justify-content-md-between">
 								<div class="ht-topbar-left">
@@ -208,7 +181,7 @@
 					<div class="row align-items-center justify-content-between">
 						<div class="col-md-auto col-6">
 							<div class="logo-area">
-								<a href="index.html"><img src="assets/img/logo/logo-1.svg" alt="Header-logo"></a>
+								<a href="index.php"><img src="assets/img/logo/logo-1.svg" alt="Header-logo"></a>
 							</div>
 						</div>
 						<div class="col-md-auto d-flex align-items-center justify-content-end d-lg-inline-block d-none">
@@ -221,7 +194,7 @@
 											</a>
 											<ul class="sub-menu">
 												<li>
-													<a href="index.html">Home Style 1</a>
+													<a href="index.php">Home Style 1</a>
 												</li>
 												<li>
 													<a href="index-2.html">Home Style 2</a>
@@ -244,7 +217,7 @@
 											</a>
 											<ul class="sub-menu">
 												<li>
-													<a href="about.html">About Us</a>
+													<a href="about.php">About Us</a>
 												</li>
 												<li>
 													<a href="#">Blog <span class="float-end"><i
@@ -368,51 +341,7 @@
 		<!-- header-area end -->
 
 		<!-- slide-bar start -->
-		<div class="ht-menu-wrapper">
-			<div class="ht-menu-area">
-				<button class="ht-menu-toggle"><i class="bi bi-x-lg"></i></button>
-				<div class="mobile-logo">
-					<a href="index.html">
-						<img src="assets/img/logo/logo-2.svg" alt="logo">
-					</a>
-				</div>
-				<div class="mobile-menu-wrapper d-lg-none d-inline-block">
-					<div class="mobile-menu"></div>
-				</div>
-				<div class="offset-widget mb-40">
-					<div class="info-widget">
-						<h4 class="offset-title mb-20">About Us</h4>
-						<p class="mb-30">
-							But I must explain to you how all this mistaken idea of denouncing pleasure and
-							praising pain was born and will give you a complete account of the system and
-							expound the actual teachings of the great explore
-						</p>
-					</div>
-				</div>
-				<div class="offset-widget mb-30 pr-10">
-					<div class="info-widget info-widget2">
-						<h4 class="offset-title mb-20">Contact Info</h4>
-						<p>
-							<i class="fal fa-address-book"></i>
-							23/A, Miranda City Likaoli Prikano, Dope
-						</p>
-						<p>
-							<i class="fal fa-phone"></i>
-							+0989 7876 9865 9
-						</p>
-						<p>
-							<i class="fal fa-envelope-open"></i>
-							info@example.com
-						</p>
-					</div>
-				</div>
-				<div class="login-btn text-center">
-					<a class="ht-btn w-100" href="login.html">Login</a>
-				</div>
-
-			</div>
-		</div>
-		<!-- side-bar end -->
+		<?php include 'includes/sidebar.php'; ?>
 
 
 		<main>
@@ -422,11 +351,11 @@
 				<div class="breadcrumb-wrapper" data-background="assets/img/page-title/page-title-bg.jpg">
 					<div class="container">
 						<div class="breadcrumb-content text-center">
-							<h2 class="breadcrumb-title">Shop</h2>
+							<h2 class="breadcrumb-title">Blog Details</h2>
 							<ul class="breadcumb-menu">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li><a href="#">Pages</a></li>
-								<li><a href="#">Shop</a></li>
+								<li><a href="#">Blog Details</a></li>
 							</ul>
 						</div>
 					</div>
@@ -434,340 +363,279 @@
 			</div>
 			<!-- page-title-area end -->
 
-			<!-- ht-product-section start -->
-			<section class="ht-product-section pt-140 pb-125 pt-lg-100 pb-lg-90">
+			<!--blog-details-section start-->
+			<div class="blog-details-section pt-130 pt-lg-100 pb-95 pb-lg-40">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-9 pe-xxl-5">
-							<div class="row align-items-center">
-								<div class="col-sm-6 text-center text-sm-start mb-40">
-									<p class="show-product-count text-heding fw-medium">
-										Showing 07/200 result
-									</p>
+						<div class="col-lg-8">
+							<div class="blog-details-wrapper pe-xl-5 mb-45">
+								<div class="classic-style">
+									<h4 class="semi-title mb-20"><a href="blog-details.html">Empowering Growth
+											Smartly</a>
+									</h4>
+									<a href="blog-details.html" class="blog-thumb">
+										<img class="w-100" src="assets/img/blog/blog-18.jpg" alt="blog">
+									</a>
+									<div class="blog-content pb-1">
+										<div class="blog-meta">
+											<a href="blog-details.html">Esther Howard</a>
+											<span class="divider"></span>
+											<a href="blog-details.html">Comments(02)</a>
+											<span class="divider"></span>
+											<a href="blog-details.html">05 Oct 2024</a>
+										</div>
+										<p class="text-lg">Expert guidance in financial consulting, providing solutions
+											for effective planning, resource allocation, and achieving organizational
+											goals..</p>
+										<p class="text-lg">Financial consulting provides businesses with expert insights
+											into financial strategies, including budgeting, and risk management.
+											consultants help optimize resource allocation, enhance decision-making, and
+											drive long-term growth</p>
+									</div>
 								</div>
-								<div class="col-sm-6 text-center text-sm-end mb-40">
-									<div class="sort-item">
-										<div class="dropdown">
-											<span>Sort by</span>
-											<button class="sort-btn dropdown-toggle" type="button"
-												id="dropdownMenuButton1" data-bs-toggle="dropdown"
-												aria-expanded="false">
-												Default <i class="bi bi-chevron-down"></i>
-											</button>
-											<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-												<li><a class="dropdown-item" href="#">Latest</a></li>
-												<li><a class="dropdown-item" href="#">Newst</a></li>
-												<li><a class="dropdown-item" href="#">A to Z</a></li>
-											</ul>
+
+								<blockquote class="blockquote mb-65">
+									<div class="quote-icon">
+										<img src="assets/img/icon/icon-43.svg" alt="author">
+									</div>
+									<p>The wise absorb lessons from everywhere, while average people are bound by past
+										experiences.</p>
+									<div class="blockquote-footer">
+										Leslie Alexander, New York
+									</div>
+								</blockquote>
+
+								<h3 class="semi-title mt-4 mb-4">Boost Your Profits</h3>
+								<div class="row align-items-center">
+									<div class="col-md-6">
+										<div class="img-box mb-30">
+											<img class="w-100" src="assets/img/blog/blog-20.jpg" alt="blog">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="img-box mb-30">
+											<img class="w-100" src="assets/img/blog/blog-21.jpg" alt="blog">
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<div class="product-wrapper text-center mb-50">
-										<div class="product-img mb-10">
-											<img class="w-100" src="assets/img/product/product-1.png" alt="wheel">
-											<a class="add-to-cart ht-btn mt-10" href="#">Add To Cart</a>
-											<div class="product-icon">
-												<a href="#"><i class="bi bi-bag"></i></a>
-												<a href="#"><i class="bi bi-suit-heart"></i></a>
-												<a href="#"><i class="bi bi-eye"></i></a>
-												<a href="#"><i class="bi bi-arrows-collapse-vertical"></i></a>
-											</div>
-										</div>
-										<div class="product-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<span>5.0</span>
-										</div>
-										<h4 class="product-title mt-10 mb-0"><a href="shop-details.html">Thermometer</a>
-										</h4>
-										<a class="pr-price" href="blog-details.html">$362.00</a>
-									</div>
+
+								<p class="pb-30 text-lg">Financial consulting provides businesses with expert
+									insights into financial strategies, including budgeting, and risk management.
+									consultants help optimize resource allocation, enhance decision-making, and drive
+									long-term growth</p>
+
+								<div class="feature-list-seven mb-20">
+									<span class="icon"><i class="bi bi-check-lg"></i></span>
+									<span class="feature-title">Residential and commercial cleaning expertise</span>
 								</div>
-								<div class="col-md-6">
-									<div class="product-wrapper text-center mb-50">
-										<div class="product-img mb-10">
-											<img class="w-100" src="assets/img/product/product-2.png" alt="wheel">
-											<a class="add-to-cart ht-btn mt-10" href="#">Add To Cart</a>
-											<div class="product-icon">
-												<a href="#"><i class="bi bi-bag"></i></a>
-												<a href="#"><i class="bi bi-suit-heart"></i></a>
-												<a href="#"><i class="bi bi-eye"></i></a>
-												<a href="#"><i class="bi bi-arrows-collapse-vertical"></i></a>
-											</div>
+								<div class="feature-list-seven  mb-20">
+									<span class="icon"><i class="bi bi-check-lg"></i></span>
+									<span class="feature-title">Crystal-clear windows guaranteed</span>
+								</div>
+								<div class="feature-list-seven  mb-20">
+									<span class="icon"><i class="bi bi-check-lg"></i></span>
+									<span class="feature-title">Processing customer feedback to improve cleaning.</span>
+								</div>
+								<div class="feature-list-seven  mb-20">
+									<span class="icon"><i class="bi bi-check-lg"></i></span>
+									<span class="feature-title">Eco-friendly cleaning solutions used</span>
+								</div>
+
+								<div class="row media-content pt-30 mb-60">
+									<div class="col-md-6">
+										<div class="tagcloud mb-30">
+											<span>Tags :</span>
+											<a href="#">House Cleaning</a>
+											<a href="#">Dusting</a>
 										</div>
-										<div class="product-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<span>5.0</span>
-										</div>
-										<h4 class="product-title mt-10 mb-0"><a href="shop-details.html">Tissue Mask</a>
-										</h4>
-										<div class="pr-price">
-											<span class="old-price">$123.00</span>
-											<span class="new-price">$123.00</span>
+									</div>
+									<div class="col-md-6 text-md-end text-center">
+										<div class="team-social-2 mb-30">
+											<a href="#"><i class="bi bi-facebook"></i></a>
+											<a href="#"><i class="bi bi-twitter"></i></a>
+											<a href="#"><i class="bi bi-instagram"></i></a>
+											<a href="#"><i class="bi bi-youtube"></i></a>
 										</div>
 									</div>
 								</div>
-								<div class="col-md-6">
-									<div class="product-wrapper text-center mb-50">
-										<div class="product-img mb-10">
-											<img class="w-100" src="assets/img/product/product-3.png" alt="wheel">
-											<a class="add-to-cart ht-btn mt-10" href="#">Add To Cart</a>
-											<div class="product-icon">
-												<a href="#"><i class="bi bi-bag"></i></a>
-												<a href="#"><i class="bi bi-suit-heart"></i></a>
-												<a href="#"><i class="bi bi-eye"></i></a>
-												<a href="#"><i class="bi bi-arrows-collapse-vertical"></i></a>
+								<div class="comment-list">
+									<h3 class="comment-title mb-30">Comment Reviews</h3>
+									<ul class="list-unstyled p-0 m-0">
+										<li>
+											<div class="comment-box d-sm-flex">
+												<div class="comment-avatar">
+													<img alt="author" src="assets/img/blog/blog-18.jpg" class="avatar">
+												</div>
+												<div class="comment-content">
+													<div class="avatar-name mb-10">
+														<p class="date">May 13, 2024</p>
+														<div class="name"><a href="#">Esther Howard</a></div>
+													</div>
+													<p>Hamina Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry’s
+														standard dummy text ever since the 1500s.</p>
+
+													<div class="comments-replay">
+														<a rel="nofollow" class="comment-reply-link" href="#">Reply</a>
+													</div>
+
+												</div>
 											</div>
-										</div>
-										<div class="product-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<span>5.0</span>
-										</div>
-										<h4 class="product-title mt-10 mb-0"><a href="shop-details.html">Microscopes</a>
-										</h4>
-										<div class="pr-price">
-											<span class="old-price">$57.00</span>
-											<span class="new-price">$60.00</span>
-										</div>
-									</div>
+										</li>
+										<li class="ps-md-5 ms-xxl-5">
+											<div class="comment-box d-sm-flex">
+												<div class="comment-avatar">
+													<img alt="author" src="assets/img/blog/blog-19.jpg" class="avatar">
+												</div>
+												<div class="comment-content">
+
+													<div class="avatar-name mb-10">
+														<p class="date">May 13, 2024</p>
+														<div class="name"><a href="#">Kristin Watson</a></div>
+													</div>
+													<p>Hamina Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry’s
+														standard dummy text ever since the 1500s.</p>
+
+													<div class="comments-replay">
+														<a rel="nofollow" class="comment-reply-link" href="#">Reply</a>
+													</div>
+
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="comment-box d-sm-flex">
+												<div class="comment-avatar">
+													<img alt="author" src="assets/img/blog/blog-15.jpg" class="avatar">
+												</div>
+												<div class="comment-content">
+
+													<div class="avatar-name mb-10">
+														<p class="date">May 13, 2024</p>
+														<div class="name"><a href="#">Eleanor Pena</a></div>
+													</div>
+													<p>Hamina Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry’s
+														standard dummy text ever since the 1500s.</p>
+
+													<div class="comments-replay">
+														<a rel="nofollow" class="comment-reply-link" href="#">Reply</a>
+													</div>
+
+												</div>
+											</div>
+										</li>
+									</ul>
 								</div>
-								<div class="col-md-6">
-									<div class="product-wrapper text-center mb-50">
-										<div class="product-img mb-10">
-											<img class="w-100" src="assets/img/product/product-4.png" alt="wheel">
-											<a class="add-to-cart ht-btn mt-10" href="#">Add To Cart</a>
-											<div class="product-icon">
-												<a href="#"><i class="bi bi-bag"></i></a>
-												<a href="#"><i class="bi bi-suit-heart"></i></a>
-												<a href="#"><i class="bi bi-eye"></i></a>
-												<a href="#"><i class="bi bi-arrows-collapse-vertical"></i></a>
+								<div class="comment-form mb-10 mt-65">
+									<h3 class="comment-reply-title mb-10">Leave a comment</h3>
+									<p class="opacity-50 mb-35">Your email address won't be shared publicly. Please fill
+										in
+										the
+										required fields marked with an asterisk.*</p>
+									<form class="comment-form" action="#">
+										<div class="row">
+											<div class="col-md-6">
+												<input type="text" name="fname" placeholder="First Name">
+											</div>
+											<div class="col-md-6">
+												<input type="email" name="email" placeholder="Email">
+											</div>
+											<div class="col-md-12">
+												<textarea name="message" placeholder="Write Your Message"
+													spellcheck="false"></textarea>
+											</div>
+											<div class="col-md-12">
+												<p class="mb-0"><input type="checkbox" value="" checked>
+													Remember my name, email, and website for future comments.</p>
 											</div>
 										</div>
-										<div class="product-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<span>5.0</span>
-										</div>
-										<h4 class="product-title mt-10 mb-0"><a href="shop-details.html">Blood Tube</a>
-										</h4>
-										<a class="pr-price" href="blog-details.html">$362.00</a>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="product-wrapper text-center mb-50">
-										<div class="product-img mb-10">
-											<img class="w-100" src="assets/img/product/product-5.png" alt="wheel">
-											<a class="add-to-cart ht-btn mt-10" href="#">Add To Cart</a>
-											<div class="product-icon">
-												<a href="#"><i class="bi bi-bag"></i></a>
-												<a href="#"><i class="bi bi-suit-heart"></i></a>
-												<a href="#"><i class="bi bi-eye"></i></a>
-												<a href="#"><i class="bi bi-arrows-collapse-vertical"></i></a>
-											</div>
-										</div>
-										<div class="product-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<span>5.0</span>
-										</div>
-										<h4 class="product-title mt-10 mb-0"><a href="shop-details.html">D-Cheker</a>
-										</h4>
-										<a class="pr-price" href="blog-details.html">$362.00</a>
-									</div>
-								</div>
-								<div class="col-md-6">
-									<div class="product-wrapper text-center mb-50">
-										<div class="product-img mb-10">
-											<img class="w-100" src="assets/img/product/product-6.png" alt="wheel">
-											<a class="add-to-cart ht-btn mt-10" href="#">Add To Cart</a>
-											<div class="product-icon">
-												<a href="#"><i class="bi bi-bag"></i></a>
-												<a href="#"><i class="bi bi-suit-heart"></i></a>
-												<a href="#"><i class="bi bi-eye"></i></a>
-												<a href="#"><i class="bi bi-arrows-collapse-vertical"></i></a>
-											</div>
-										</div>
-										<div class="product-rating">
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<a href="#"><i class="bi bi-star-fill"></i></a>
-											<span>5.0</span>
-										</div>
-										<h4 class="product-title mt-10 mb-0"><a href="shop-details.html">Ear
-												Thermometer</a>
-										</h4>
-										<a class="pr-price" href="blog-details.html">$362.00</a>
+									</form>
+									<div class="mt-50">
+										<button class="ht-btn">Post Comment</button>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3">
-							<div class="shop-sidebar">
-								<div class="sidebar-widget mb-40">
+						<div class="col-lg-4">
+							<div class="blog-sidebar mb-40 ps-xxl-5 ms-xxl-5">
+								<div class="widget widget-search mb-50">
+									<h3 class="widget-title">Search</h3>
+									<form class="search-form" action="#" method="get">
+										<input type="text" placeholder="Search">
+										<button class="widget-btn" type="submit"> <i class="bi bi-search"></i>
+										</button>
+									</form>
+								</div>
+								<div class="widget category-widget-content">
 									<h3 class="widget-title">Categories</h3>
-									<div class="sidebar_widget-content">
-										<div class="categories-accordion">
-											<ul>
-												<li><a href="#">Classics <span>10</span></a></li>
-												<li><a href="#">Blood<span>18</span></a></li>
-												<li><a href="#">Diabtis<span>22</span></a></li>
-												<li><a href="#">Clothes<span>17</span></a></li>
-												<li><a href="#">Boots<span>22</span></a></li>
-												<li><a href="#">Lifestyle<span>14</span></a></li>
-												<li><a href="#">Outdoor<span>29</span></a></li>
-												<li><a href="#">Grocery <span>14</span></a></li>
-											</ul>
+									<ul class="list-unstyled category-widget mb-0">
+										<li><a href="#">Financial Planning <span class="float-end">(05)</span> </a></li>
+										<li><a href="#">Online Banking <span class="float-end">(02)</span> </a></li>
+										<li><a href="#">Insurance <span class="float-end">(04)</span> </a></li>
+										<li><a href="#">Mortgage <span class="float-end">(03)</span> </a></li>
+										<li><a href="#">Digital Wallet <span class="float-end">(07)</span> </a></li>
+									</ul>
+								</div>
+								<div class="widget widget-post mt-50">
+									<h3 class="widget-title">Recent Post</h3>
+									<article class="recent-post mb-20">
+										<a href="blog-details.html">
+											<figure class="post-thumb" data-background="assets/img/blog/blog-13.jpg">
+											</figure>
+										</a>
+										<div class="post-content mb-2">
+											<span class="date"><i class="bi bi-clock"></i> 21 Jan,2025</span>
+											<h5 class="mb-10"><a href="blog-details.html">PMaster Insurance Contracts in
+													Simple Steps</a></h5>
 										</div>
-									</div>
-								</div>
-								<div class="sidebar-widget mb-40">
-									<h3 class="widget-title">Hightlight</h3>
-									<div class="sidebar_widget-content">
-										<ul class="highlight_content">
-											<li><a href="#">Promotions (885)</a></li>
-											<li><a href="#">New Arrivals (987)</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="sidebar-widget mb-40">
-									<h3 class="widget-title">By Prices</h3>
-									<div class="sidebar_widget-content">
-										<div class="price-slider">
-											<form class="price-range" action="#">
-												<button class="filter">filter</button>
-												<label for="amount">Price:</label>
-												<input type="text" id="amount" readonly=""
-													style="border:0; color:#f6931f; font-weight:bold;">
-											</form>
-
-											<div id="slider-range"
-												class="ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
-												<div class="ui-slider-range ui-corner-all ui-widget-header"
-													style="width: 45%; left: 15%;"></div><span tabindex="0"
-													class="ui-slider-handle ui-corner-all ui-state-default"
-													style="left: 15%;"></span><span tabindex="0"
-													class="ui-slider-handle ui-corner-all ui-state-default"
-													style="left: 60%;"></span>
-											</div>
+									</article>
+									<article class="recent-post mb-20">
+										<a href="blog-details.html">
+											<figure class="post-thumb" data-background="assets/img/blog/blog-14.jpg">
+											</figure>
+										</a>
+										<div class="post-content mb-2">
+											<span class="date"><i class="bi bi-clock"></i> 01 Apr,2023</span>
+											<h5 class="mb-10"><a href="blog-details.html">Advice to Secure Mortgage Loan
+													Approval</a>
+											</h5>
 										</div>
-									</div>
-								</div>
-								<div class="sidebar-widget mb-40">
-									<h3 class="widget-title">By Review</h3>
-									<div class="sidebar_widget-content">
-										<div class="widget-review">
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" value=""
-													id="flexCheckDefault1">
-												<div class="products_product-rating mb-10">
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<span>(05)</span>
-												</div>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" value=""
-													id="flexCheckDefault2">
-												<div class="products_product-rating mb-10">
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<span>(04)</span>
-												</div>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" value=""
-													id="flexCheckDefault3">
-												<div class="products_product-rating mb-10">
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<span>(03)</span>
-												</div>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" value=""
-													id="flexCheckDefault4">
-												<div class="products_product-rating mb-10">
-													<a href="#"><i class="fas fa-star"></i></a>
-													<a href="#"><i class="fas fa-star"></i></a>
-													<span>(02)</span>
-												</div>
-											</div>
-											<div class="form-check">
-												<input class="form-check-input" type="checkbox" value=""
-													id="flexCheckDefault5">
-												<div class="products_product-rating">
-													<a href="#"><i class="fas fa-star"></i></a>
-													<span>(03)</span>
-												</div>
-											</div>
+									</article>
+									<article class="recent-post">
+										<a href="blog-details.html">
+											<figure class="post-thumb" data-background="assets/img/blog/blog-15.jpg">
+											</figure>
+										</a>
+										<div class="post-content mb-2">
+											<span class="date"><i class="bi bi-clock"></i> 18 Feb,2023</span>
+											<h5 class="mb-10"><a href="blog-details.html">Financial Goal Setting Made
+													Simple Today</a></h5>
 										</div>
+									</article>
+								</div>
+								<div class="widget widget-categories-tag mt-50">
+									<h3 class="widget-title">Tags</h3>
+									<div class="tagcloud">
+										<a href="#">Growth</a>
+										<a href="#">Mobile banking</a>
+										<a href="#">Transfer</a>
+										<a href="#">Homeowner loan</a>
+										<a href="#">Financial</a>
 									</div>
 								</div>
-								<div class="sidebar-widget mb-40">
-									<h3 class="widget-title">By Color</h3>
-									<div class="sidebar_widget-content">
-										<div class="color-picker">
-											<a href="#" class="color" style="background-color:#e6c79e;"></a>
-											<a href="#" class="color" style="background-color:#09abd7;"></a>
-											<a href="#" class="color" style="background-color:#2fb946;"></a>
-											<a href="#" class="color" style="background-color:#9e8367;"></a>
-											<a href="#" class="color" style="background-color:#dd620a;"></a>
-											<a href="#" class="color" style="background-color:#eded0d;"></a>
-											<a href="#" class="color" style="background-color:#926f08;"></a>
-											<a href="#" class="color" style="background-color:#4b06c2;"></a>
-										</div>
-									</div>
+								<div class="widget-contact">
+									<h3 class="contact-title mb-20">Interested in booking
+										with us?</h3>
+									<p><span><i class="bi bi-telephone"></i></span> +86-085-550-1539</p>
 								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-12">
-							<div class="page-navigation mt-20">
-								<ul class="pagination">
-									<li class="page-item"><a class="page-link" href="#"><i
-												class="bi bi-chevron-left"></i></a></li>
-									<li class="page-item"><a class="page-link" href="#">1</a></li>
-									<li class="page-item"><a class="page-link" href="#">2</a></li>
-									<li class="page-item"><a class="page-link" href="#">3</a></li>
-									<li class="page-item"><a class="page-link" href="#"><i
-												class="bi bi-chevron-right"></i></a></li>
-
-								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section>
-			<!-- ht-product-section end -->
+			</div>
+			<!--blog-details-section end-->
 
 			<!-- cta-section end -->
 			<div class="cta-section position-relative pt-70 pb-100 pt-lg-60 pb-lg-60">
@@ -800,14 +668,14 @@
 					<div class="col-xxl-6 col-xl-6 text-xl-start text-center">
 						<div class="footer-widget">
 							<div class="footer-logo">
-								<a href="index.html"><img src="assets/img/logo/logo-2.svg" alt="Logo"></a>
+								<a href="index.php"><img src="assets/img/logo/logo-2.svg" alt="Logo"></a>
 							</div>
 							<p class="description-text">Choose us for reliable, detail-oriented cleaning that meets all
 								your
 								cleanliness needs.</p>
 							<ul class="d-md-flex justify-content-between">
 								<li>
-									<a href="about.html">About us</a>
+									<a href="about.php">About us</a>
 								</li>
 								<li>
 									<a href="price.html">Pricing plan</a>
@@ -816,7 +684,7 @@
 									<a href="blog-grid.html">Blogs</a>
 								</li>
 								<li>
-									<a href="about.html">Testimonial</a>
+									<a href="about.php">Testimonial</a>
 								</li>
 								<li>
 									<a href="contact.html">Contact us</a>

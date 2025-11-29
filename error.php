@@ -5,14 +5,14 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
 	<meta name="keywords"
-		content="caja de ahorro, blog, artículos, sol de noviembre">
+		content="caja de ahorro, error, página no encontrada, sol de noviembre">
 	<meta name="description"
-		content="Blog clásico de Sol de Noviembre - Artículos sobre ahorro e inversión.">
-	<title>Sol de Noviembre - Blog</title>
+		content="Página no encontrada - Sol de Noviembre.">
+	<title>Sol de Noviembre - Error 404</title>
 	<meta property="og:site_name" content="Sol de Noviembre">
 	<meta property="og:url" content="">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Sol de Noviembre - Blog">
+	<meta property="og:title" content="Sol de Noviembre - Error">
 	<meta name='og:image' content='images/assets/ogg.png'>
 	<!-- For IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,34 +47,8 @@
 	<div class="main-page-wrapper">
 		<!--[if lte IE 9]> <p class="browserupgrade"> You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security. </p> <![endif]-->
 
-		<!-- Add your site or application content here -->
+		<?php include 'includes/preloader.php'; ?>
 
-
-		<!-- preloader start -->
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="txt-loading">
-					<span data-text-preloader="F" class="letters-loading">
-						F
-					</span>
-					<span data-text-preloader="i" class="letters-loading">
-						i
-					</span>
-					<span data-text-preloader="b" class="letters-loading">
-						b
-					</span>
-					<span data-text-preloader="a" class="letters-loading">
-						a
-					</span>
-					<span data-text-preloader="n" class="letters-loading">
-						n
-					</span>
-					<span data-text-preloader="k" class="letters-loading">
-						k
-					</span>
-				</div>
-			</div>
-		</div>
 		<!-- preloader end  -->
 
 
@@ -95,9 +69,11 @@
 				<!-- end fullscreen search -->
 			</div>
 		</div>
-		<!-- offcanvas end  -->
+	<!-- offcanvas end  -->
 
-		<!-- shopping-cart-bar start -->
+	<?php include 'includes/header.php'; ?>
+
+	<!-- slide-bar start -->
 		<div class="cart-menu-right cart-style-1 white-bg">
 			<div class="close-icon float-right">
 				<a href="javascript:void(0);"><i class="bi bi-x"></i></a>
@@ -175,12 +151,9 @@
 		</div>
 		<!-- shopping-cart-bar end -->
 
-		<!-- header-area start -->
-		<header class="theme-main-menu theme-menu-six">
-			<div class="header-top">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
+		<!--#include virtual="assets/includes/header.html" -->
+		<!-- slide-bar start -->
+		<div class="ht-menu-wrapper">
 							<div
 								class="topbar-content d-flex align-items-center justify-content-center justify-content-md-between">
 								<div class="ht-topbar-left">
@@ -191,8 +164,10 @@
 												class="bi bi-telephone"></i></span> +86-085-550-1539</a>
 								</div>
 								<div class="ht-topbar-right d-flex align-items-center">
-					<a class="ht-email d-none d-lg-inline-block" href="#"><span><i
-							class="bi bi-envelope"></i></span> info@soldenoviembrecaja.com</a>									<div class="header-social">
+									<a class="ht-email d-none d-lg-inline-block" href="#"><span><i
+												class="bi bi-envelope"></i></span> fibankinfomain166@gmail.com</a>
+
+									<div class="header-social">
 										<a href="@"><i class="bi bi-facebook"></i></a>
 										<a href="@"><i class="bi bi-instagram"></i></a>
 										<a href="@"><i class="bi bi-twitter"></i></a>
@@ -208,7 +183,7 @@
 					<div class="row align-items-center justify-content-between">
 						<div class="col-md-auto col-6">
 							<div class="logo-area">
-								<a href="index.html"><img src="assets/img/logo/logo-1.svg" alt="Header-logo"></a>
+								<a href="index.php"><img src="assets/img/logo/logo-1.svg" alt="Header-logo"></a>
 							</div>
 						</div>
 						<div class="col-md-auto d-flex align-items-center justify-content-end d-lg-inline-block d-none">
@@ -221,7 +196,7 @@
 											</a>
 											<ul class="sub-menu">
 												<li>
-													<a href="index.html">Home Style 1</a>
+													<a href="index.php">Home Style 1</a>
 												</li>
 												<li>
 													<a href="index-2.html">Home Style 2</a>
@@ -244,7 +219,7 @@
 											</a>
 											<ul class="sub-menu">
 												<li>
-													<a href="about.html">About Us</a>
+													<a href="about.php">About Us</a>
 												</li>
 												<li>
 													<a href="#">Blog <span class="float-end"><i
@@ -367,52 +342,7 @@
 		</header>
 		<!-- header-area end -->
 
-		<!-- slide-bar start -->
-		<div class="ht-menu-wrapper">
-			<div class="ht-menu-area">
-				<button class="ht-menu-toggle"><i class="bi bi-x-lg"></i></button>
-				<div class="mobile-logo">
-					<a href="index.html">
-						<img src="assets/img/logo/logo-2.svg" alt="logo">
-					</a>
-				</div>
-				<div class="mobile-menu-wrapper d-lg-none d-inline-block">
-					<div class="mobile-menu"></div>
-				</div>
-				<div class="offset-widget mb-40">
-					<div class="info-widget">
-						<h4 class="offset-title mb-20">About Us</h4>
-						<p class="mb-30">
-							But I must explain to you how all this mistaken idea of denouncing pleasure and
-							praising pain was born and will give you a complete account of the system and
-							expound the actual teachings of the great explore
-						</p>
-					</div>
-				</div>
-				<div class="offset-widget mb-30 pr-10">
-					<div class="info-widget info-widget2">
-						<h4 class="offset-title mb-20">Contact Info</h4>
-						<p>
-							<i class="fal fa-address-book"></i>
-							23/A, Miranda City Likaoli Prikano, Dope
-						</p>
-						<p>
-							<i class="fal fa-phone"></i>
-							+0989 7876 9865 9
-						</p>
-						<p>
-							<i class="fal fa-envelope-open"></i>
-							info@example.com
-						</p>
-					</div>
-				</div>
-				<div class="login-btn text-center">
-					<a class="ht-btn w-100" href="login.html">Login</a>
-				</div>
-
-			</div>
-		</div>
-		<!-- side-bar end -->
+		<?php include 'includes/sidebar.php'; ?>
 
 
 		<main>
@@ -422,11 +352,11 @@
 				<div class="breadcrumb-wrapper" data-background="assets/img/page-title/page-title-bg.jpg">
 					<div class="container">
 						<div class="breadcrumb-content text-center">
-							<h2 class="breadcrumb-title">Blog Classic</h2>
+							<h2 class="breadcrumb-title">Error - 404</h2>
 							<ul class="breadcumb-menu">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li><a href="#">Pages</a></li>
-								<li><a href="#">Blog Classic</a></li>
+								<li><a href="#">Error - 404</a></li>
 							</ul>
 						</div>
 					</div>
@@ -434,222 +364,19 @@
 			</div>
 			<!-- page-title-area end -->
 
-
-
-			<!--blog-classic-section start-->
-			<div class="blog-classic-section pt-140 pt-lg-100 pb-125 pb-lg-80">
+			<!-- ht-error-page-wrapper start -->
+			<div class="ht-error-page-wrapper text-center pt-130 pt-lg-100 pb-140 pb-lg-100">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 pe-xxl-5">
-							<div class="classic-style">
-								<div class="blog-thumb">
-									<a href="blog-details.html" class="blog-tag">House Cleaning</a>
-									<img src="assets/img/blog/blog-17.jpg" alt="blog">
-								</div>
-								<div class="blog-content">
-									<div class="blog-meta">
-										<a href="blog-details.html">Esther Howard</a>
-										<span class="divider"></span>
-										<a href="blog-details.html">05 Oct 2024</a>
-									</div>
-									<h3 class="blog-title"><a href="blog-details.html">Unlocking Business Potential
-											Through Intelligent Data-Powered Solutions</a>
-									</h3>
-									<a class="blog-btn" href="blog-details.html"><img src="assets/img/icon/arrow-4.svg"
-											alt=""></a>
-								</div>
-							</div>
-
-							<div class="classic-style">
-								<div class="blog-thumb">
-									<a href="blog-details.html" class="blog-tag">House Cleaning</a>
-									<img src="assets/img/blog/blog-18.jpg" alt="blog">
-									<a href="https://www.youtube.com/watch?v=6stlCkUDG_s&amp;list=PL4Gr5tOAPttLOY9IrWVjJlv4CtkYI5cI_"
-										class="popup-video"><i class="bi bi-play-fill"></i></a>
-								</div>
-								<div class="blog-content">
-									<div class="blog-meta">
-										<a href="blog-details.html">Esther Howard</a>
-										<span class="divider"></span>
-										<a href="blog-details.html">05 Oct 2024</a>
-									</div>
-									<h3 class="blog-title"><a href="blog-details.html">Robust Financial Strategies Key
-											to Organizational Stability and Growth</a>
-									</h3>
-									<a class="blog-btn" href="blog-details.html"><img src="assets/img/icon/arrow-4.svg"
-											alt=""></a>
-								</div>
-							</div>
-
-							<div class="classic-style">
-								<div class=" ht-carousel classic-gallery-wrapper position-relative" data-slide-show="1"
-									data-arrows="true">
-									<div class="classic-gallery-item">
-										<div class="blog-thumb">
-											<img src="assets/img/blog/blog-19.jpg" alt="blog">
-											<a href="blog-details.html" class="blog-tag">House Cleaning</a>
-										</div>
-									</div>
-									<div class="classic-gallery-item">
-										<div class="blog-thumb">
-											<img src="assets/img/blog/blog-18.jpg" alt="blog">
-											<a href="blog-details.html" class="blog-tag">07 Oct</a>
-										</div>
-									</div>
-									<div class="classic-gallery-item">
-										<div class="blog-thumb">
-											<img src="assets/img/blog/blog-17.jpg" alt="blog">
-											<a href="blog-details.html" class="blog-tag">07 Oct</a>
-										</div>
-									</div>
-								</div>
-								<div class="blog-content">
-									<div class="blog-meta">
-										<a href="blog-details.html">Esther Howard</a>
-										<span class="divider"></span>
-										<a href="blog-details.html">Comment (03)</a>
-									</div>
-									<h3 class="blog-title"><a href="blog-details.html">Building a Solid Foundation for
-											Long-Term Financial Responsibility Success</a>
-									</h3>
-									<a class="blog-btn" href="blog-details.html"><img src="assets/img/icon/arrow-4.svg"
-											alt=""></a>
-								</div>
-							</div>
-
-							<div class="classic-style">
-								<div class="blog-thumb">
-									<a href="blog-details.html" class="blog-tag">07 Oct</a>
-									<img src="assets/img/blog/blog-19.jpg" alt="blog">
-								</div>
-								<div class="blog-content">
-									<div class="blog-meta">
-										<a href="blog-details.html">Esther Howard</a>
-										<span class="divider"></span>
-										<a href="blog-details.html">House Cleaning</a>
-									</div>
-									<h3 class="blog-title"><a href="blog-details.html">Creating a Successful
-											Strategy
-											for Effective SEO Marketing.</a>
-									</h3>
-									<a class="blog-btn" href="blog-details.html"><img src="assets/img/icon/arrow-4.svg"
-											alt=""></a>
-								</div>
-							</div>
-
-						</div>
-						<div class="col-lg-4 ps-xxl-5">
-							<div class="blog-sidebar ms-xxl-5 mb-40">
-								<div class="widget widget-search mb-50">
-									<h3 class="widget-title">Search</h3>
-									<form class="search-form" action="#" method="get">
-										<input type="text" placeholder="Search">
-										<button class="widget-btn" type="submit"> <i class="bi bi-search"></i>
-										</button>
-									</form>
-								</div>
-								<div class="widget category-widget-content">
-									<h3 class="widget-title">Categories</h3>
-									<ul class="list-unstyled category-widget mb-0">
-										<li><a href="#">Kitchen Cleaning <span class="float-end">(05)</span> </a></li>
-										<li><a href="#">Window Cleaning <span class="float-end">(02)</span> </a></li>
-										<li><a href="#">Toilet Cleaning <span class="float-end">(04)</span> </a></li>
-										<li><a href="#">Office Cleaning <span class="float-end">(03)</span> </a></li>
-										<li><a href="#">Carpet Cleaning <span class="float-end">(07)</span> </a></li>
-									</ul>
-								</div>
-								<div class="widget widget-post mt-50">
-									<h3 class="widget-title">Recent Post</h3>
-									<article class="recent-post mb-20">
-										<a href="blog-details.html">
-											<figure class="post-thumb" data-background="assets/img/blog/blog-13.jpg">
-											</figure>
-										</a>
-										<div class="post-content mb-2">
-											<span class="date"><i class="bi bi-clock"></i> 21 Jan,2025</span>
-											<h5 class="mb-10"><a href="blog-details.html">Master Insurance Contracts in
-													Simple Steps</a></h5>
-										</div>
-									</article>
-									<article class="recent-post mb-20">
-										<a href="blog-details.html">
-											<figure class="post-thumb" data-background="assets/img/blog/blog-14.jpg">
-											</figure>
-										</a>
-										<div class="post-content mb-2">
-											<span class="date"><i class="bi bi-clock"></i> 01 Apr,2024</span>
-											<h5 class="mb-10"><a href="blog-details.html">Advice to Secure Mortgage Loan
-													Approval</a>
-											</h5>
-										</div>
-									</article>
-									<article class="recent-post">
-										<a href="blog-details.html">
-											<figure class="post-thumb" data-background="assets/img/blog/blog-15.jpg">
-											</figure>
-										</a>
-										<div class="post-content mb-2">
-											<span class="date"><i class="bi bi-clock"></i> 18 Feb,2025</span>
-											<h5 class="mb-10"><a href="blog-details.html">Financial Goal Setting Made
-													Simple Today</a></h5>
-										</div>
-									</article>
-								</div>
-								<div class="widget widget-categories-tag mt-50">
-									<h3 class="widget-title">Tags</h3>
-									<div class="tagcloud">
-										<a href="#">Vacuum</a>
-										<a href="#">Cleaning</a>
-										<a href="#">House Cleaning</a>
-										<a href="#">Deep Clean</a>
-										<a href="#">Dusting</a>
-									</div>
-								</div>
-								<div class="widget-contact">
-									<h3 class="contact-title mb-20">Interested in booking
-										with us?</h3>
-									<p><span><i class="bi bi-telephone"></i></span> +86-085-550-1539</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-12">
-							<div class="page-navigation">
-								<ul class="pagination">
-									<li class="page-item"><a class="page-link" href="#"><i
-												class="bi bi-arrow-left"></i></a></li>
-									<li class="page-item"><a class="page-link" href="#">1</a></li>
-									<li class="page-item"><a class="page-link" href="#">2</a></li>
-									<li class="page-item"><a class="page-link" href="#">3</a></li>
-									<li class="page-item"><a class="page-link" href="#"><i
-												class="bi bi-arrow-right"></i></a></li>
-
-								</ul>
-							</div>
-						</div>
+					<img class="img-fluid" src="assets/img/ilustration/ilus-2.png" alt="ilustration">
+					<div class="title-one">
+						<h2 class="title mt-5">Sorry, Page Not Found</h2>
+						<p>The page you are looking for does not exit.Please try it.</p>
+						<a href="index.php" class="ht-btn mt-4">Back To Home</a>
 					</div>
 				</div>
 			</div>
-			<!--blog-classic-section end-->
+			<!-- ht-error-page-wrapper end -->
 
-
-			<!-- cta-section end -->
-			<div class="cta-section position-relative pt-70 pb-100 pt-lg-60 pb-lg-60">
-				<img class="d-none d-lg-inline-block position-absolute start-0 mt-170 ml-140 top-0 rotation"
-					src="assets/img/shape/shape-9.png" alt="shape">
-				<img class="d-none d-lg-inline-block position-absolute end-0 mt-170 mr-100 top-0 rotation"
-					src="assets/img/shape/shape-9.png" alt="shape">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-9">
-							<div class="title-one text-center">
-								<h2 class="title">Have Concerns? Feel Free to Connect.</h2>
-								<a href="contact.html" class="ht-btn mt-25">Get a loan</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- cta-section end -->
 
 		</main>
 
@@ -663,14 +390,14 @@
 					<div class="col-xxl-6 col-xl-6 text-xl-start text-center">
 						<div class="footer-widget">
 							<div class="footer-logo">
-								<a href="index.html"><img src="assets/img/logo/logo-2.svg" alt="Logo"></a>
+								<a href="index.php"><img src="assets/img/logo/logo-2.svg" alt="Logo"></a>
 							</div>
 							<p class="description-text">Choose us for reliable, detail-oriented cleaning that meets all
 								your
 								cleanliness needs.</p>
 							<ul class="d-md-flex justify-content-between">
 								<li>
-									<a href="about.html">About us</a>
+									<a href="about.php">About us</a>
 								</li>
 								<li>
 									<a href="price.html">Pricing plan</a>
@@ -679,7 +406,7 @@
 									<a href="blog-grid.html">Blogs</a>
 								</li>
 								<li>
-									<a href="about.html">Testimonial</a>
+									<a href="about.php">Testimonial</a>
 								</li>
 								<li>
 									<a href="contact.html">Contact us</a>

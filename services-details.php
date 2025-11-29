@@ -5,14 +5,14 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
 	<meta name="keywords"
-		content="caja de ahorro, contacto, sol de noviembre">
+		content="caja de ahorro, servicio, detalles, sol de noviembre">
 	<meta name="description"
-		content="Contacta con Sol de Noviembre - Tu Caja de Ahorro de confianza.">
-	<title>Sol de Noviembre - Contacto</title>
+		content="Detalles de Servicios - Sol de Noviembre.">
+	<title>Sol de Noviembre - Detalles del Servicio</title>
 	<meta property="og:site_name" content="Sol de Noviembre">
 	<meta property="og:url" content="">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Sol de Noviembre - Contacto">
+	<meta property="og:title" content="Sol de Noviembre - Servicio">
 	<meta name='og:image' content='images/assets/ogg.png'>
 	<!-- For IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,34 +47,8 @@
 	<div class="main-page-wrapper">
 		<!--[if lte IE 9]> <p class="browserupgrade"> You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security. </p> <![endif]-->
 
-		<!-- Add your site or application content here -->
+		<?php include 'includes/preloader.php'; ?>
 
-
-		<!-- preloader start -->
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="txt-loading">
-					<span data-text-preloader="F" class="letters-loading">
-						F
-					</span>
-					<span data-text-preloader="i" class="letters-loading">
-						i
-					</span>
-					<span data-text-preloader="b" class="letters-loading">
-						b
-					</span>
-					<span data-text-preloader="a" class="letters-loading">
-						a
-					</span>
-					<span data-text-preloader="n" class="letters-loading">
-						n
-					</span>
-					<span data-text-preloader="k" class="letters-loading">
-						k
-					</span>
-				</div>
-			</div>
-		</div>
 		<!-- preloader end  -->
 
 
@@ -95,9 +69,11 @@
 				<!-- end fullscreen search -->
 			</div>
 		</div>
-		<!-- offcanvas end  -->
+	<!-- offcanvas end  -->
 
-		<!-- shopping-cart-bar start -->
+	<?php include 'includes/header.php'; ?>
+
+	<!-- slide-bar start -->
 		<div class="cart-menu-right cart-style-1 white-bg">
 			<div class="close-icon float-right">
 				<a href="javascript:void(0);"><i class="bi bi-x"></i></a>
@@ -175,12 +151,9 @@
 		</div>
 		<!-- shopping-cart-bar end -->
 
-		<!-- header-area start -->
-		<header class="theme-main-menu theme-menu-six">
-			<div class="header-top">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-lg-12">
+		<!--#include virtual="assets/includes/header.html" -->
+		<!-- slide-bar start -->
+		<div class="ht-menu-wrapper">
 							<div
 								class="topbar-content d-flex align-items-center justify-content-center justify-content-md-between">
 								<div class="ht-topbar-left">
@@ -208,7 +181,7 @@
 					<div class="row align-items-center justify-content-between">
 						<div class="col-md-auto col-6">
 							<div class="logo-area">
-								<a href="index.html"><img src="assets/img/logo/logo-1.svg" alt="Header-logo"></a>
+								<a href="index.php"><img src="assets/img/logo/logo-1.svg" alt="Header-logo"></a>
 							</div>
 						</div>
 						<div class="col-md-auto d-flex align-items-center justify-content-end d-lg-inline-block d-none">
@@ -221,7 +194,7 @@
 											</a>
 											<ul class="sub-menu">
 												<li>
-													<a href="index.html">Home Style 1</a>
+													<a href="index.php">Home Style 1</a>
 												</li>
 												<li>
 													<a href="index-2.html">Home Style 2</a>
@@ -244,7 +217,7 @@
 											</a>
 											<ul class="sub-menu">
 												<li>
-													<a href="about.html">About Us</a>
+													<a href="about.php">About Us</a>
 												</li>
 												<li>
 													<a href="#">Blog <span class="float-end"><i
@@ -367,52 +340,7 @@
 		</header>
 		<!-- header-area end -->
 
-		<!-- slide-bar start -->
-		<div class="ht-menu-wrapper">
-			<div class="ht-menu-area">
-				<button class="ht-menu-toggle"><i class="bi bi-x-lg"></i></button>
-				<div class="mobile-logo">
-					<a href="index.html">
-						<img src="assets/img/logo/logo-2.svg" alt="logo">
-					</a>
-				</div>
-				<div class="mobile-menu-wrapper d-lg-none d-inline-block">
-					<div class="mobile-menu"></div>
-				</div>
-				<div class="offset-widget mb-40">
-					<div class="info-widget">
-						<h4 class="offset-title mb-20">About Us</h4>
-						<p class="mb-30">
-							But I must explain to you how all this mistaken idea of denouncing pleasure and
-							praising pain was born and will give you a complete account of the system and
-							expound the actual teachings of the great explore
-						</p>
-					</div>
-				</div>
-				<div class="offset-widget mb-30 pr-10">
-					<div class="info-widget info-widget2">
-						<h4 class="offset-title mb-20">Contact Info</h4>
-						<p>
-							<i class="fal fa-address-book"></i>
-							23/A, Miranda City Likaoli Prikano, Dope
-						</p>
-						<p>
-							<i class="fal fa-phone"></i>
-							+0989 7876 9865 9
-						</p>
-						<p>
-							<i class="fal fa-envelope-open"></i>
-							info@example.com
-						</p>
-					</div>
-				</div>
-				<div class="login-btn text-center">
-					<a class="ht-btn w-100" href="login.html">Login</a>
-				</div>
-
-			</div>
-		</div>
-		<!-- side-bar end -->
+		<?php include 'includes/sidebar.php'; ?>
 
 
 		<main>
@@ -421,12 +349,12 @@
 			<div class="page-title-area">
 				<div class="breadcrumb-wrapper" data-background="assets/img/page-title/page-title-bg.jpg">
 					<div class="container">
-					<div class="breadcrumb-content text-center">
-						<h2 class="breadcrumb-title">Contacto</h2>
-						<ul class="breadcumb-menu">
-							<li><a href="index.html">Inicio</a></li>
-							<li><a href="#">Páginas</a></li>
-							<li><a href="#">Contacto</a></li>
+						<div class="breadcrumb-content text-center">
+							<h2 class="breadcrumb-title">Services Details</h2>
+							<ul class="breadcumb-menu">
+								<li><a href="index.php">Home</a></li>
+								<li><a href="#">Pages</a></li>
+								<li><a href="#">Services Details</a></li>
 							</ul>
 						</div>
 					</div>
@@ -434,96 +362,165 @@
 			</div>
 			<!-- page-title-area end -->
 
-			<!-- ht-contact-section-info start -->
-			<div class="ht-contact-section-info pt-140 pb-25 pt-100 pb-lg-15">
+			<!--service-details-section start-->
+			<div class="service-details-section pt-140 pt-lg-100 pb-45">
 				<div class="container">
-					<div class="row align-items-center justify-content-center">
-						<div class="col-xl-4 col-lg-6">
-							<div class="info-box2">
-								<div class="icon">
-									<i class="bi bi-headphones"></i>
+					<div class="row">
+						<div class="col-lg-8 mb-lg-0 mb-5">
+							<div class="img-holder mb-40">
+								<img class="w-100" src="assets/img/media/media-38.jpg" alt="service">
+							</div>
+							<h2 class="semi-title lh-1">Family Insurance</h2>
+							<p class="fs-22 mb-5">Expert guidance in financial consulting, providing solutions for
+								effective planning, resource allocation, and achieving organizational goals.</p>
+							<p class="fs-22">Financial consulting provides businesses with expert insights into
+								financial strategies, including budgeting, and risk management. consultants help
+								optimize resource allocation, enhance decision-making, and drive long-term growth</p>
+
+							<div class="row row-cols-lg-2 row-cols-md-2 row-cols-1 mt-70">
+								<div class="col">
+									<div class="feature-wrap-6">
+										<div class="icon">
+											<img src="assets/img/icon/icon-21.svg" alt="icon">
+										</div>
+										<h4 class="feature-title"><a href="services-details.html">Life Insurance</a>
+										</h4>
+										<p class="description">Conducting assessments to identify strengths and
+											weaknesses of products.</p>
+									</div>
 								</div>
-								<div class="info-content">
-									<h3 class="info-title">Office Address</h3>
-									<address>
-										2118 Thornridge Cir. Syracuse, Connecticut 35624, Thailand
-									</address>
+								<div class="col">
+									<div class="feature-wrap-6">
+										<div class="icon">
+											<img src="assets/img/icon/icon-22.svg" alt="icon">
+										</div>
+										<h4 class="feature-title"><a href="services-details.html">Business Insurance</a>
+										</h4>
+										<p class="description">Conducting assessments to identify strengths and
+											weaknesses of products.</p>
+									</div>
+								</div>
+							</div>
+							<h3 class="semi-title lh-1 mb-25">Insurance Solution</h3>
+							<div class="feature-list-seven mb-25">
+								<span class="icon"><i class="bi bi-check-lg"></i></span>
+								<span class="feature-title">Reliable insurance solutions to safeguard your home, health,
+									and business.</span>
+							</div>
+							<div class="feature-list-seven mb-25">
+								<span class="icon"><i class="bi bi-check-lg"></i></span>
+								<span class="feature-title">Trusted insurance providers offering tailored
+									coverage.</span>
+							</div>
+							<div class="feature-list-seven mb-25">
+								<span class="icon"><i class="bi bi-check-lg"></i></span>
+								<span class="feature-title">Comprehensive coverage tailored to needs.</span>
+							</div>
+							<div class="feature-list-seven mb-25">
+								<span class="icon"><i class="bi bi-check-lg"></i></span>
+								<span class="feature-title">Secure your future with reliable insurance solutions.</span>
+							</div>
+							<div class="feature-list-seven mb-25">
+								<span class="icon"><i class="bi bi-check-lg"></i></span>
+								<span class="feature-title">Flexible insurance solutions for every need.</span>
+							</div>
+						</div>
+						<div class="col-lg-4 ps-xxl-5">
+							<div class="service-widget ps-xxl-4 mb-40">
+								<div class="widget widget-search">
+									<h3 class="widget-title">Search</h3>
+									<form class="search-form" action="#" method="get">
+										<input type="text" placeholder="Search">
+										<button class="widget-btn" type="submit"> <i class="bi bi-search"></i>
+										</button>
+									</form>
+								</div>
+								<div class="widget wodget-categories">
+									<h4 class="widget-title">Categories</h4>
+									<ul class="list-unstyled service-category-widget widget-box m-0">
+										<li><a href="#">SEO Agency <span class="float-end">(05)</span></a>
+										</li>
+										<li><a href="#">Digital Marketing <span class="float-end">(02)</span></a>
+										</li>
+										<li><a href="#">SEO Campaign <span class="float-end">(04)</span></a>
+										</li>
+										<li><a href="#">Advertising Agency <span class="float-end">(03)</span></a>
+										</li>
+										<li><a href="#">Digital Agency <span class="float-end">(07)</span></a>
+										</li>
+									</ul>
+								</div>
+
+								<div class="widget widget-categories-tag">
+									<h3 class="widget-title">Tags</h3>
+									<div class="tagcloud">
+										<a href="#">Vacuum</a>
+										<a href="#">Cleaning</a>
+										<a href="#">House Cleaning</a>
+										<a href="#">Deep Clean</a>
+										<a href="#">Dusting</a>
+									</div>
+								</div>
+
+								<div class="widget-contact">
+									<h3 class="contact-title mb-20">Interested in booking
+										with us?</h3>
+									<p><span><i class="bi bi-telephone"></i></span> +86-085-550-1539</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-xl-4 col-lg-6">
-							<div class="info-box2">
-								<div class="icon">
-									<i class="bi bi-headphones"></i>
-								</div>
-								<div class="info-content">
-									<h3 class="info-title">Email Address</h3>
-									<p>chambers@example.com</p>
-									<p>tanya.hill@example.com</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-4 col-lg-6">
-							<div class="info-box2">
-								<div class="icon">
-									<i class="bi bi-headphones"></i>
-								</div>
-								<div class="info-content">
-									<h3 class="info-title">Phone Number</h3>
-									<p><a href="#">(406) 555-0120</a> , <a href="#">(406) 555-0120</a></p>
-									<p><a href="#">(406) 555-0120</a></p>
-								</div>
-							</div>
-						</div>
+						<div class="bottom-border border mt-20"></div>
 					</div>
 				</div>
 			</div>
-			<!-- ht-contact-section-info end -->
+			<!--service-details-section end-->
 
-			<!-- contact-section start -->
-			<section class="contact-section position-relative z-2">
+			<!-- how-we-workssection start -->
+			<section class="how-we-works-section pt-100 pb-25 pt-lg-60 pb-lg-10">
 				<div class="container">
-					<div class="row justify-content-end">
-						<div class="col-xl-7">
-							<div class="contact-form-wrapper-3 ms-xxl-5">
-								<div class="title-one mb-30">
-									<h2 class="title text-white">Contáctanos.</h2>
+					<div class="title-one text-center mb-70">
+						<h2 class="title">How it Works</h2>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-lg-4">
+							<div class="feature-wrap-5 pe-xxl-5">
+								<div class="icon">
+									<img class="front-icon" src="assets/img/icon/icon-17.svg" alt="icon">
 								</div>
-								<form class="contact-form form-3" action="#">
-									<div class="input-wrapper">
-										<input type="text" placeholder="Nombre">
-									</div>
-									<div class="input-wrapper">
-										<input type="email" placeholder="Correo Electrónico">
-									</div>
-									<div class="col-12">
-										<div class="input-wrapper message">
-											<textarea name="message" placeholder="Tu Mensaje"></textarea>
-										</div>
-									</div>
-									<div class="col-12">
-										<button type="submit" class="submit-btn">Enviar Mensaje</button>
-									</div>
-								</form>
+								<h3 class="feature-title"><a href="contact.html">Create Account</a>
+								</h3>
+								<p class="description">Check out our detailed pricing list for transparent and
+									competitive rates.</p>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="feature-wrap-5">
+								<img class="arrow-shape1" src="assets/img/icon/icon-27.svg" alt="icon">
+								<div class="icon">
+									<img class="front-icon" src="assets/img/icon/icon-18.svg" alt="icon">
+								</div>
+								<h3 class="feature-title"><a href="services-details.html">Request Loan </a>
+								</h3>
+								<p class="description">Double-check the information to ensure everything is accurate and
+									reliable.</p>
+								<img class="arrow-shape2" src="assets/img/icon/icon-27.svg" alt="icon">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="feature-wrap-5 ps-xxl-5">
+								<div class="icon">
+									<img class="front-icon" src="assets/img/icon/icon-19.svg" alt="icon">
+								</div>
+								<h3 class="feature-title"><a href="services-details.html">Get Money</a>
+								</h3>
+								<p class="description">Collect payment for your work, goods, or services in exchange for
+									compensation.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- contact-section end -->
-
-			<!-- ht-contact-map start -->
-			<div class="ht-contact-map pb-90 pt-lg-60 pb-lg-70">
-				<div class="container-fluid px-0">
-					<div class="contact-map">
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14586.166638731369!2d90.38652459999999!3d23.94127905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1693217501589!5m2!1sen!2sbd"
-							width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-							referrerpolicy="no-referrer-when-downgrade"></iframe>
-					</div>
-				</div>
-			</div>
-			<!-- ht-contact-section-two end -->
+			<!-- how-we-works-section end -->
 
 			<!-- cta-section end -->
 			<div class="cta-section position-relative pt-70 pb-100 pt-lg-60 pb-lg-60">
@@ -533,10 +530,10 @@
 					src="assets/img/shape/shape-9.png" alt="shape">
 				<div class="container">
 					<div class="row justify-content-center">
-				<div class="col-lg-9">
-						<div class="title-one text-center">
-							<h2 class="title">¿Tienes dudas? Siéntete libre de conectar con nosotros.</h2>
-							<a href="contact.html" class="ht-btn mt-25">Obtén un Crédito</a>
+						<div class="col-lg-9">
+							<div class="title-one text-center">
+								<h2 class="title">Have Concerns? Feel Free to Connect.</h2>
+								<a href="contact.html" class="ht-btn mt-25">Get a loan</a>
 							</div>
 						</div>
 					</div>
@@ -556,14 +553,14 @@
 					<div class="col-xxl-6 col-xl-6 text-xl-start text-center">
 						<div class="footer-widget">
 							<div class="footer-logo">
-								<a href="index.html"><img src="assets/img/logo/logo-2.svg" alt="Logo"></a>
+								<a href="index.php"><img src="assets/img/logo/logo-2.svg" alt="Logo"></a>
 							</div>
 							<p class="description-text">Choose us for reliable, detail-oriented cleaning that meets all
 								your
 								cleanliness needs.</p>
 							<ul class="d-md-flex justify-content-between">
 								<li>
-									<a href="about.html">About us</a>
+									<a href="about.php">About us</a>
 								</li>
 								<li>
 									<a href="price.html">Pricing plan</a>
@@ -572,7 +569,7 @@
 									<a href="blog-grid.html">Blogs</a>
 								</li>
 								<li>
-									<a href="about.html">Testimonial</a>
+									<a href="about.php">Testimonial</a>
 								</li>
 								<li>
 									<a href="contact.html">Contact us</a>
